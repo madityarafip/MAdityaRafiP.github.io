@@ -203,7 +203,7 @@
     width: '90%',
     height: '90vh'
   });
-  
+
   /**
    * Portfolio details slider
    */
@@ -220,6 +220,7 @@
       clickable: true
     }
   });
+
 
   /**
    * Testimonials slider
