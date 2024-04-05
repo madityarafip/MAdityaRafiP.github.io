@@ -365,7 +365,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -396,7 +396,21 @@ section {
   transition: 0.9s;
   background-color: #149ddd;
 }
-
+.skills .skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.skills .skill img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.skills .skill .skill-description {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+}
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
