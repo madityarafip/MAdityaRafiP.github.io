@@ -396,6 +396,14 @@ section {
   transition: 0.9s;
   background-color: #149ddd;
 }
+.skills .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills .col-lg-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
 .skills .skill {
   display: flex;
   align-items: center;
